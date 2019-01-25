@@ -1,4 +1,11 @@
 # Facial-expression-recogntion-
-I puprose a solution for facial expression recognition using a a pre-trained CNN RESNET50. The reason is simple : why I must create and train a new neural network and lose a lot of time to train it, if I can use a pre-trainned CNN on millions images and have a greate feature extractor.  Using a pre-trained network and just adapting last layer for the 7 facial expressions, the train process on FER2013 is more less.
+A solution for Facial Expression Recognition using RESNET50 Convolutional Neural Network.</br>
 
-First you must run csvToImage.py, after that resnetModel.py
+You can find more about RESNET50 here:</br>
+https://medium.com/@14prakash/understanding-and-implementing-architectures-of-resnet-and-resnext-for-state-of-the-art-image-cf51669e1624
+
+The dataset used is fer2013 from: <br>
+https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
+
+The images are comprimed into a .csv file. databcsvToImage.py extract data from this .csv file an organize it into a more convenient way. </br> 
+The resnetModel.py build, train and evaluate the model. Also the weights are saved into a .json format.
