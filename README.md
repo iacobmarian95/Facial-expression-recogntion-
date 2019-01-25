@@ -7,5 +7,6 @@ https://medium.com/@14prakash/understanding-and-implementing-architectures-of-re
 The dataset used is fer2013 from: <br>
 https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
 
-The images are comprimed into a .csv file. databcsvToImage.py extract data from this .csv file an organize it into a more convenient way. </br> 
+The images are comprimed into a .csv file. </br>
+csvToImage.py extract data from this .csv file an organize it into a more convenient way. </br> 
 The resnetModel.py build, train and evaluate the model. Also the weights are saved into a .json format.
